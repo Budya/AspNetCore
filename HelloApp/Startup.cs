@@ -17,7 +17,7 @@ namespace HelloApp
 
         public void Configure(IApplicationBuilder app)
         {
-            app.UseToken();
+            app.UseToken("555555");
 
             app.Run(async (context) =>
             {

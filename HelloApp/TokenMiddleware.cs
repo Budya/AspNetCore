@@ -9,16 +9,18 @@ namespace HelloApp
     public class TokenMiddleware
     {
         private readonly RequestDelegate _next;
-
-        public TokenMiddleware(RequestDelegate next)
+        string pattern;
+        
+        public TokenMiddleware(RequestDelegate next, string pattern)
         {
             this._next = next;
+            this.pattern = pattern;
         }
 
         public async Task TaskAsync(HttpContext context)
         {
             var token = context.Request.Query["token"];
-            if (token != "12345678")
+            if (token != pattern)
             {
                 context.Response.StatusCode = 403;
                 await context.Response.WriteAsync("Token is invalid");
