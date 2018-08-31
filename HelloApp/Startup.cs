@@ -17,7 +17,10 @@ namespace HelloApp
 
         public void Configure(IApplicationBuilder app)
         {
-            app.UseToken("555555");
+            //app.UseStaticFiles();
+            app.UseMiddleware<ErrorHandlingMiddleware>();
+            app.UseMiddleware<AuthenicationMiddleware>();
+            app.UseMiddleware<RoutingMiddleware>();
 
             app.Run(async (context) =>
             {

@@ -1,0 +1,30 @@
+Failed to locate the development https certificate at '(null)'.
+Hosting started
+Loaded hosting startup assembly Ligging
+Connection id "0HLGF8NESIN5H" started.
+Connection id "0HLGF8NESIN5H" received FIN.
+Connection id "0HLGF8NESIN5H" disconnecting.
+Connection id "0HLGF8NESIN5H" sending FIN.
+Connection id "0HLGF8NESIN5H" stopped.
+Connection id "0HLGF8NESIN5I" started.
+Request starting HTTP/1.1 GET http://localhost:5000/  
+Wildcard detected, all requests with hosts will be allowed.
+All hosts are allowed.
+Processing request /
+Connection id "0HLGF8NESIN5I" completed keep alive response.
+Request finished in 300.7869ms 200 
+Failed to locate the development https certificate at '(null)'.
+Hosting started
+Loaded hosting startup assembly Ligging
+Connection id "0HLGF8TRVRF59" started.
+Connection id "0HLGF8TRVRF59" received FIN.
+Connection id "0HLGF8TRVRF59" disconnecting.
+Connection id "0HLGF8TRVRF59" sending FIN.
+Connection id "0HLGF8TRVRF59" stopped.
+Connection id "0HLGF8TRVRF5A" started.
+Request starting HTTP/1.1 GET http://localhost:5000/  
+Wildcard detected, all requests with hosts will be allowed.
+All hosts are allowed.
+Processing request /
+Connection id "0HLGF8TRVRF5A" completed keep alive response.
+Request finished in 331.8621ms 200 
