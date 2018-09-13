@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependeciesApp", "DependeciesApp\DependeciesApp.csproj", "{32A2FA27-C106-4DFB-BD1B-6A50D9BD6B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependeciesApp", "DependeciesApp\DependeciesApp.csproj", "{32A2FA27-C106-4DFB-BD1B-6A50D9BD6B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorDepApp", "ConstructorDepApp\ConstructorDepApp.csproj", "{47BFE88C-C40D-43DD-914C-4CA2BAA4FFC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorDepApp", "ConstructorDepApp\ConstructorDepApp.csproj", "{47BFE88C-C40D-43DD-914C-4CA2BAA4FFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpCRServicesApp", "HttpCRServicesApp\HttpCRServicesApp.csproj", "{AB74DDBC-0E93-442A-ACEE-B3B2E0DB7C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpCRServicesApp", "HttpCRServicesApp\HttpCRServicesApp.csproj", "{AB74DDBC-0E93-442A-ACEE-B3B2E0DB7C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDependApp", "MiddlewareDependApp\MiddlewareDependApp.csproj", "{5E30019D-80D6-48FA-9ED3-E4031B36B718}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AB74DDBC-0E93-442A-ACEE-B3B2E0DB7C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB74DDBC-0E93-442A-ACEE-B3B2E0DB7C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB74DDBC-0E93-442A-ACEE-B3B2E0DB7C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E30019D-80D6-48FA-9ED3-E4031B36B718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E30019D-80D6-48FA-9ED3-E4031B36B718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E30019D-80D6-48FA-9ED3-E4031B36B718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E30019D-80D6-48FA-9ED3-E4031B36B718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

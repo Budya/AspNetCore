@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeTimeDepApp", "LifeTimeDepApp\LifeTimeDepApp.csproj", "{88CA7299-8B63-4505-B580-77A71C6C271F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88CA7299-8B63-4505-B580-77A71C6C271F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CA7299-8B63-4505-B580-77A71C6C271F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CA7299-8B63-4505-B580-77A71C6C271F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CA7299-8B63-4505-B580-77A71C6C271F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34082E45-4299-446B-BC09-DE3EF3B2B188}
+	EndGlobalSection
+EndGlobal
