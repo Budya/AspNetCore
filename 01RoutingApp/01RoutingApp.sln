@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01RoutingApp", "01RoutingApp\01RoutingApp.csproj", "{596B753E-E293-4522-9764-61BE8F768198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01RoutingApp", "01RoutingApp\01RoutingApp.csproj", "{596B753E-E293-4522-9764-61BE8F768198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02DefiningRoutesApp", "02DefiningRoutesApp\02DefiningRoutesApp.csproj", "{AEC6E373-DEB9-40E6-BA25-B1C55C3DB46E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03WorkingWthRoutesApp", "03WorkingWthRoutesApp\03WorkingWthRoutesApp.csproj", "{C5A3BCAF-2497-4F81-BDC9-F56F7BA01A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04RestrictesRoutesApp", "04RestrictesRoutesApp\04RestrictesRoutesApp.csproj", "{580522A2-81AE-4002-A4A1-513AA6E52A38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{596B753E-E293-4522-9764-61BE8F768198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{596B753E-E293-4522-9764-61BE8F768198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{596B753E-E293-4522-9764-61BE8F768198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC6E373-DEB9-40E6-BA25-B1C55C3DB46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC6E373-DEB9-40E6-BA25-B1C55C3DB46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC6E373-DEB9-40E6-BA25-B1C55C3DB46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC6E373-DEB9-40E6-BA25-B1C55C3DB46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A3BCAF-2497-4F81-BDC9-F56F7BA01A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A3BCAF-2497-4F81-BDC9-F56F7BA01A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A3BCAF-2497-4F81-BDC9-F56F7BA01A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A3BCAF-2497-4F81-BDC9-F56F7BA01A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580522A2-81AE-4002-A4A1-513AA6E52A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580522A2-81AE-4002-A4A1-513AA6E52A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580522A2-81AE-4002-A4A1-513AA6E52A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580522A2-81AE-4002-A4A1-513AA6E52A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
